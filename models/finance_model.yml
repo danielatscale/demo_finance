@@ -6,4 +6,22 @@ metrics:
     folder: Metrics
   - unique_name: Sales Amount
     folder: Metrics
-relationships: []
+  - unique_name: Sell Through
+    folder: Finance Calcs
+relationships:
+  - unique_name: factinternetsales_productkey_to_DimProduct_Product Name
+    from:
+      dataset: factinternetsales
+      join_columns:
+        - productkey
+    to:
+      dimension: DimProduct
+      level: Product Name
+  - unique_name: factinternetsales_shipdatekey_to_DimDate_Date
+    from:
+      dataset: factinternetsales
+      join_columns:
+        - shipdatekey
+    to:
+      dimension: DimDate
+      level: Date
