@@ -1,0 +1,6 @@
+unique_name: demo_finance
+object_type: catalog
+label: demo_finance
+aggressive_agg_promotion: false
+as_version: 1
+build_speculative_aggs: true

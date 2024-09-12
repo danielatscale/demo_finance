@@ -1,0 +1,6 @@
+unique_name: Sell Through
+object_type: metric_calc
+label: Sell-Through
+expression: "[Measures].[Order Quantity]/[Measures].[Sales Amount]"
+format: percent
+is_hidden: false

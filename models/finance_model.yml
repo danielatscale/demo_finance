@@ -1,0 +1,9 @@
+unique_name: finance_model
+object_type: model
+label: finance_model
+metrics:
+  - unique_name: Order Quantity
+    folder: Metrics
+  - unique_name: Sales Amount
+    folder: Metrics
+relationships: []
