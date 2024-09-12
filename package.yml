@@ -1,6 +1,6 @@
 version: 1
 packages:
-  - version: commit:6479aa90f59763ae3720acf82afb60b61a196be6
+  - version: commit:48de794ca90dfecc28ab89b1b355f573ad45cc94
     name: shared_insights
     url: https://github.com/danielatscale/shared_insights
     branch: main
